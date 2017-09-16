@@ -1,15 +1,15 @@
 {
     "name": "graphql-express-persisted-query",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Express middleware to handle persisted (stored) GraphQL queries by ID",
     "keywords": [
-      "graphql",
-      "express",
-      "persisted",
-      "stored",
-      "queries",
-      "query",
-      "middleware"
+        "graphql",
+        "express",
+        "persisted",
+        "stored",
+        "queries",
+        "query",
+        "middleware"
     ],
     "main": "dist/index.js",
     "repository": "https://github.com/jasonmorita/graphql-express-persisted-query",
@@ -23,8 +23,6 @@
     "license": "MIT",
     "dependencies": {
         "body-parser": "^1.17.2",
-        "jest-cli": "^20.0.3",
-        "lodash": "^4.17.4",
         "recursive-readdir-sync": "^1.0.6"
     },
     "devDependencies": {
@@ -45,6 +43,7 @@
         "eslint-config-airbnb-base": "^11.2.0",
         "eslint-plugin-import": "^2.2.0",
         "jest": "^20.0.3",
+        "jest-cli": "^21.1.0",
         "regenerator-runtime": "^0.10.5"
     },
     "jest": {
